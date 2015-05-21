@@ -8,6 +8,6 @@ public class Main {
     */
    public static void main(String[] args) {
       Endpoint
-            .publish("/UnWebService", new UnWebService());
+            .publish("https://intense-shore-2560.herokuapp.com/UnWebService", new UnWebService());
    }
 }
